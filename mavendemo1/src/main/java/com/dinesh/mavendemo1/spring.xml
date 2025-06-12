@@ -15,5 +15,11 @@
     <!--  property name="brand" value="mrf"></property> -->
     <!--<constructor-arg value="ceat"></constructor-arg>  -->
     </bean>
+
+
+    <bean id="car" class="com.dinesh.mavendemo1.Car">
+    </bean>
+        <!-- <property name="brand" value="audi"></property> -->
+        <!-- <constructor-arg value="audi"></constructor-arg> -->
     
 </beans>
