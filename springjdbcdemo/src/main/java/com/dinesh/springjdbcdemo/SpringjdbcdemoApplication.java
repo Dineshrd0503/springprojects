@@ -5,6 +5,7 @@ import com.dinesh.springjdbcdemo.repo.AlienRepo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import java.util.List;
 
 @SpringBootApplication
 public class SpringjdbcdemoApplication {
@@ -18,8 +19,12 @@ public class SpringjdbcdemoApplication {
 		alien1.setTech("Java");
 		System.out.println(alien1.getId());
 
-		AlienRepo repo= context.getBean(AlienRepo.class);
+		AlienRepo repo = context.getBean(AlienRepo.class);
 		repo.save(alien1);
+		List<Alien> aliens = repo.displayAll();
+		for (Alien alien : aliens) {
+		    System.out.println(alien);
+		}
 
 	}
 
