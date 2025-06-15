@@ -42,7 +42,7 @@ public class Product {
         this.price = price;
     }
 
-    public void setQuantity(String quantity) {
+    public void setQuantity(Double quantity) {
         this.quantity = quantity;
     }
 }
