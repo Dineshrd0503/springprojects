@@ -28,7 +28,7 @@ public class ProductController {
 
             int choice = 0;
             try {
-                choice = Integer.parseInt(System.console().readLine());
+                choice = Integer.parseInt(sc.nextLine());
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input, please enter a number.");
                 continue;
