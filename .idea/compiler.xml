@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mavendemo1" />
         <module name="librarymanagement-system" />
         <module name="springiocdemo" />
-        <module name="springjdbcproject" />
         <module name="springjdbcdemo" />
         <module name="springbootmvcproject" />
+        <module name="mavendemo1" />
+        <module name="mvcproductmanagementsystem" />
+        <module name="springjdbcproject" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mvcproductmanagementsystem" options="-parameters" />
       <module name="springbootmvcproject" options="-parameters" />
       <module name="springiocdemo" options="-parameters" />
       <module name="springjdbcdemo" options="-parameters" />
