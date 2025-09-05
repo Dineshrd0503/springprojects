@@ -32,6 +32,10 @@
 # Production build output
 /frontend/build/
 
+# Ensure other files in the frontend folder are tracked
+!/frontend/
+!/frontend/**
+
 # Log files
 /frontend/npm-debug.log*
 /frontend/yarn-debug.log*
