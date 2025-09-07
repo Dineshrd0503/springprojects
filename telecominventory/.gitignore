@@ -1,0 +1,56 @@
+# =================================================
+# Java / Maven / Spring Boot Back-end
+# =================================================
+
+# Compiled class files and build artifacts
+/target/
+*.class
+
+# Log files
+*.log
+*.log.*
+
+# Packaged application files
+*.jar
+*.war
+*.ear
+
+# =================================================
+# React / Node.js Front-end
+# =================================================
+
+# Dependencies folder (This is the main "heavy folder" to ignore)
+/frontend/node_modules/
+
+# Production build output
+/frontend/build/
+
+# Log files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Environment variables - VERY IMPORTANT for security
+# Never commit files containing secrets like API keys or database passwords
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+.env
+
+# =================================================
+# IDE & Editor specific files
+# =================================================
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# =================================================
+# Operating System generated files
+# =================================================
+.DS_Store
+Thumbs.db
