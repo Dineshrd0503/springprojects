@@ -11,6 +11,7 @@
         <module name="librarymanagement-system" />
         <module name="springiocdemo" />
         <module name="springjdbcdemo" />
+        <module name="crmwebapptelusko" />
         <module name="springbootmvcproject" />
         <module name="mavendemo1" />
         <module name="mvcproductmanagementsystem" />
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crmwebapptelusko" options="-parameters" />
       <module name="hibernatedemo" options="-parameters" />
       <module name="mvcproductmanagementsystem" options="-parameters" />
       <module name="springaopdemo" options="-parameters" />
