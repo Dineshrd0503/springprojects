@@ -10,6 +10,7 @@
         <module name="springaopdemo" />
         <module name="librarymanagement-system" />
         <module name="springiocdemo" />
+        <module name="restapidemotelusko" />
         <module name="springjdbcdemo" />
         <module name="crmwebapptelusko" />
         <module name="springbootmvcproject" />
@@ -27,6 +28,7 @@
       <module name="crmwebapptelusko" options="-parameters" />
       <module name="hibernatedemo" options="-parameters" />
       <module name="mvcproductmanagementsystem" options="-parameters" />
+      <module name="restapidemotelusko" options="-parameters" />
       <module name="springaopdemo" options="-parameters" />
       <module name="springbootmvcproject" options="-parameters" />
       <module name="springiocdemo" options="-parameters" />
