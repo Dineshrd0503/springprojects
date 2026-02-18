@@ -11,6 +11,7 @@
         <module name="librarymanagement-system" />
         <module name="springiocdemo" />
         <module name="restapidemotelusko" />
+        <module name="springsecuritydemotelusko" />
         <module name="springjdbcdemo" />
         <module name="crmwebapptelusko" />
         <module name="springbootmvcproject" />
@@ -34,6 +35,7 @@
       <module name="springiocdemo" options="-parameters" />
       <module name="springjdbcdemo" options="-parameters" />
       <module name="springjdbcproject" options="-parameters" />
+      <module name="springsecuritydemotelusko" options="-parameters" />
       <module name="telecominventory" options="-parameters" />
     </option>
   </component>
